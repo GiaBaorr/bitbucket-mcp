@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://bitbucket.example.com",
+  "token": "<your HTTP access token>",
+  "watch": ["PROJ", "OTHER/some-repo"],
+  "readOnly": false
+}

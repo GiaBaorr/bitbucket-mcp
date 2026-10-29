@@ -1,0 +1,25 @@
+{
+  "name": "bitbucket-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Bitbucket Data Center: watch projects, open PRs and PR comments",
+  "type": "module",
+  "bin": {
+    "bitbucket-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  }
+}
